@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipanshi Yadav | QA Engineer & Software Testing Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Dipanshi Yadav - QA Engineer specializing in Manual Testing, REST API Validation (Postman), SQL Database Verification, and Web Quality Assurance.">
+    <meta name="keywords"
+        content="Dipanshi Yadav, QA Engineer, Software Tester, Manual Testing, API Testing, Postman, SQL, Playwright, STLC, SDLC, Hyderabad QA">
+    <meta name="author" content="Dipanshi Yadav">
+
+    <!-- Open Graph Meta -->
+    <meta property="og:title" content="Dipanshi Yadav | QA Engineer Portfolio">
+    <meta property="og:description"
+        content="QA Engineer with hands-on experience in Manual, API, and Database Testing. Explore test cases, bug reports, and projects.">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230ea5e9'/><text x='50%' y='55%' dominant-baseline='central' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='900' font-size='50'>DY</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Glow Effects -->
+    <div class="glow-bg glow-1"></div>
+    <div class="glow-bg glow-2"></div>
+    <div class="glow-bg glow-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <a href="#hero" class="brand-logo" aria-label="Dipanshi Yadav Home">
+                <span class="logo-box">DY</span>
+                <span class="brand-text">Dipanshi<span class="highlight">.qa</span></span>
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#qa-lab" class="nav-link">QA Lab <span class="nav-badge">Live</span></a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+
+                <div class="nav-actions">
+                    <button id="theme-toggle" class="btn-icon" aria-label="Toggle Dark / Light Theme" title="Toggle Theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="btn btn-outline btn-sm open-resume-modal" id="nav-resume-btn">
+                        <i class="fas fa-file-lines"></i> Resume
+                    </button>
+                    <a href="#contact" class="btn btn-primary btn-sm">Hire Me</a>
+                </div>
+            </div>
+
+            <div class="nav-toggle" id="nav-toggle" aria-label="Open Navigation Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-grid">
+                <div class="hero-text-content">
+                    <div class="status-pill animate-fade">
+                        <span class="pulse-dot"></span>
+                        <span>Available for QA & Testing Roles &bull; Hyderabad, India</span>
+                    </div>
+
+                    <h1 class="hero-title animate-fade">
+                        Hi, I'm <span class="gradient-text">Dipanshi Yadav</span>
+                    </h1>
+
+                    <div class="typing-container animate-fade">
+                        <span class="role-prefix">I specialize in: </span>
+                        <span class="typed-text" id="typed-text"></span>
+                        <span class="cursor">&nbsp;</span>
+                    </div>
+
+                    <p class="hero-description animate-fade">
+                        Dedicated <strong>QA Engineer</strong> with hands-on expertise in <strong>Manual, Functional, Regression,
+                        API, and Database Testing</strong>. Passionate about uncovering edge-case defects, validating REST APIs with
+                        Postman, and ensuring rock-solid software stability using Jira, SQL, and Playwright.
+                    </p>
+
+                    <div class="hero-actions animate-fade">
+                        <a href="#projects" class="btn btn-primary btn-lg">
+                            <i class="fas fa-diagram-project"></i> View QA Projects
+                        </a>
+                        <button class="btn btn-secondary btn-lg open-resume-modal">
+                            <i class="fas fa-file-pdf"></i> View & Print Resume
+                        </button>
+                        <a href="mailto:dipanshiyadav9876@gmail.com" class="btn btn-outline btn-lg">
+                            <i class="fas fa-envelope"></i> Quick Email
+                        </a>
+                    </div>
+
+                    <!-- Contact Quick Info -->
+                    <div class="hero-contact-strip animate-fade">
+                        <a href="mailto:dipanshiyadav9876@gmail.com" class="contact-pill" title="Email Dipanshi">
+                            <i class="fas fa-envelope"></i> dipanshiyadav9876@gmail.com
+                        </a>
+                        <a href="tel:+918009040297" class="contact-pill" title="Call Dipanshi">
+                            <i class="fas fa-phone"></i> +91 8009040297
+                        </a>
+                        <div class="social-links-row">
+                            <a href="https://linkedin.com/in/dipanshi-yadav-912180314/" target="_blank" rel="noopener noreferrer"
+                                class="social-icon" aria-label="LinkedIn Profile" title="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/Dipanshi98" target="_blank" rel="noopener noreferrer"
+                                class="social-icon" aria-label="GitHub Profile" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero QA Visual Dashboard -->
+                <div class="hero-visual animate-slide-left">
+                    <div class="qa-dashboard-card glass-panel">
+                        <div class="card-header-bar">
+                            <div class="dots-group">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <span class="card-bar-title"><i class="fas fa-terminal"></i> dy-qa-test-runner.v2</span>
+                            <span class="status-badge-live"><i class="fas fa-circle-check"></i> 100% PASS</span>
+                        </div>
+
+                        <div class="qa-dashboard-body">
+                            <!-- Metrics Grid -->
+                            <div class="mini-metrics-row">
+                                <div class="metric-box">
+                                    <span class="metric-val text-cyan">80+</span>
+                                    <span class="metric-lbl">Test Cases Executed</span>
+                                </div>
+                                <div class="metric-box">
+                                    <span class="metric-val text-green">100%</span>
+                                    <span class="metric-lbl">Defect Traceability</span>
+                                </div>
+                                <div class="metric-box">
+                                    <span class="metric-val text-purple">200 OK</span>
+                                    <span class="metric-lbl">API Status Validation</span>
+                                </div>
+                            </div>
+
+                            <!-- Live Terminal Logs -->
+                            <div class="terminal-log-window">
+                                <div class="log-line text-muted">
+                                    <span class="log-tag tag-info">INFO</span> Initializing Test Suite for E-Commerce & Web QA...
+                                </div>
+                                <div class="log-line text-green">
+                                    <span class="log-tag tag-pass">PASS</span> [AUTH-01] Valid Registration & Login authentication
+                                </div>
+                                <div class="log-line text-green">
+                                    <span class="log-tag tag-pass">PASS</span> [CART-04] Cart subtotal & item increment calculation
+                                </div>
+                                <div class="log-line text-green">
+                                    <span class="log-tag tag-pass">PASS</span> [API-08] POST /api/checkout payload schema 200 OK
+                                </div>
+                                <div class="log-line text-yellow">
+                                    <span class="log-tag tag-warn">BUG</span> [REG-12] Defect logged to Jira (Severity: High, Priority: P1)
+                                </div>
+                                <div class="log-line text-green">
+                                    <span class="log-tag tag-pass">PASS</span> [SQL-02] SQLite employee role permission integrity verified
+                                </div>
+                            </div>
+
+                            <!-- QA Tool Badges -->
+                            <div class="qa-stack-badges">
+                                <span class="stack-badge"><i class="fab fa-jira text-blue"></i> Jira</span>
+                                <span class="stack-badge"><i class="fas fa-bolt text-orange"></i> Postman</span>
+                                <span class="stack-badge"><i class="fas fa-database text-teal"></i> SQL / SQLite</span>
+                                <span class="stack-badge"><i class="fas fa-play text-green"></i> Playwright</span>
+                                <span class="stack-badge"><i class="fab fa-js text-yellow"></i> JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About & QA Methodology Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-title-wrap text-center">
+                    <span class="section-subtitle">Profile & Competencies</span>
+                    <h2 class="section-title">About <span class="gradient-text">Dipanshi Yadav</span></h2>
+                    <p class="section-desc">
+                        A proactive Quality Assurance specialist bridging manual precision, API validation, and database verification to deliver defect-free software.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-bio glass-panel">
+                        <div class="bio-header">
+                            <div class="avatar-holder">
+                                <div class="avatar-initials">DY</div>
+                                <div class="online-indicator" title="Available for Hiring"></div>
+                            </div>
+                            <div>
+                                <h3 class="bio-name">Dipanshi Yadav</h3>
+                                <p class="bio-title">QA Engineer &bull; B.Tech Computer Science (2022-2026)</p>
+                                <p class="bio-location"><i class="fas fa-location-dot"></i> Hyderabad, India</p>
+                            </div>
+                        </div>
+
+                        <p class="bio-text">
+                            I am a Quality Assurance Engineer passionate about software excellence and seamless user experiences. With hands-on experience in <strong>Manual, Functional, Regression, Negative, API, and Database testing</strong>, I specialize in crafting meticulous test cases, executing end-to-end user workflows, and isolating reproducible bugs before code hits production.
+                        </p>
+                        <p class="bio-text">
+                            My workflow combines exploratory intuition with structured test plans using <strong>Jira</strong> for defect life-cycle tracking, <strong>Postman</strong> for RESTful API assertions, and <strong>SQL</strong> for deep database verification. Additionally, my computer science foundation and knowledge of JavaScript, HTML, and CSS empower me to inspect DOM issues, diagnose front-end glitches, and leverage automated frameworks like <strong>Playwright</strong>.
+                        </p>
+
+                        <!-- Key Highlights / Numbers -->
+                        <div class="bio-stats-grid">
+                            <div class="bio-stat-item">
+                                <span class="stat-number">3+</span>
+                                <span class="stat-label">Core QA Projects Completed</span>
+                            </div>
+                            <div class="bio-stat-item">
+                                <span class="stat-number">7.5</span>
+                                <span class="stat-label">B.Tech CGPA (KIT)</span>
+                            </div>
+                            <div class="bio-stat-item">
+                                <span class="stat-number">2x</span>
+                                <span class="stat-label">Hackathon Awards & Honors</span>
+                            </div>
+                            <div class="bio-stat-item">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">Industry Certifications</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- STLC / QA Lifecycle Process -->
+                    <div class="stlc-process glass-panel">
+                        <div class="panel-header">
+                            <i class="fas fa-gears text-cyan"></i>
+                            <h3>My Software Testing Life Cycle (STLC) Workflow</h3>
+                        </div>
+                        <p class="stlc-intro">
+                            How I guarantee software quality from early requirement analysis to final sign-off:
+                        </p>
+
+                        <div class="stlc-steps">
+                            <div class="stlc-step">
+                                <div class="step-num">01</div>
+                                <div class="step-content">
+                                    <h4>Requirement Analysis</h4>
+                                    <p>Reviewing functional specs and user stories to identify testable conditions and ambiguity.</p>
+                                </div>
+                            </div>
+                            <div class="stlc-step">
+                                <div class="step-num">02</div>
+                                <div class="step-content">
+                                    <h4>Test Planning & Scenario Design</h4>
+                                    <p>Formulating test strategies, scope, entry/exit criteria, and positive & negative test scenarios.</p>
+                                </div>
+                            </div>
+                            <div class="stlc-step">
+                                <div class="step-num">03</div>
+                                <div class="step-content">
+                                    <h4>Test Case Authoring</h4>
+                                    <p>Writing detailed test cases with Boundary Value Analysis, Equivalence Partitioning, and preconditions.</p>
+                                </div>
+                            </div>
+                            <div class="stlc-step">
+                                <div class="step-num">04</div>
+                                <div class="step-content">
+                                    <h4>Execution & API/DB Validation</h4>
+                                    <p>Executing test suites, validating REST payloads in Postman, and verifying SQL table records.</p>
+                                </div>
+                            </div>
+                            <div class="stlc-step">
+                                <div class="step-num">05</div>
+                                <div class="step-content">
+                                    <h4>Defect Logging & Retesting</h4>
+                                    <p>Logging actionable Jira tickets with clear reproduction steps, priority, severity, and verifying bug fixes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-title-wrap text-center">
+                    <span class="section-subtitle">Technical Arsenal</span>
+                    <h2 class="section-title">Testing Expertise & <span class="gradient-text">Skills</span></h2>
+                    <p class="section-desc">
+                        A comprehensive toolkit covering manual test methodologies, API inspection, database validation, and modern developer tooling.
+                    </p>
+                </div>
+
+                <!-- Skill Filter Tabs -->
+                <div class="filter-tabs">
+                    <button class="filter-btn active" data-filter="all">All Skills</button>
+                    <button class="filter-btn" data-filter="testing">Manual & QA Testing</button>
+                    <button class="filter-btn" data-filter="api-db">API & Database</button>
+                    <button class="filter-btn" data-filter="tools">Tools & Automation</button>
+                    <button class="filter-btn" data-filter="prog">Programming & Web</button>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Category 1: Manual & Functional Testing -->
+                    <div class="skill-category-card glass-panel" data-category="testing">
+                        <div class="cat-header">
+                            <div class="cat-icon-wrap icon-cyan">
+                                <i class="fas fa-list-check"></i>
+                            </div>
+                            <div>
+                                <h3>Testing Methodologies</h3>
+                                <span>Core QA Competencies</span>
+                            </div>
+                        </div>
+                        <ul class="skill-tag-list">
+                            <li class="skill-tag"><i class="fas fa-circle-check"></i> Manual Testing</li>
+                            <li class="skill-tag"><i class="fas fa-circle-check"></i> Functional Testing</li>
+                            <li class="skill-tag"><i class="fas fa-circle-check"></i> Regression Testing</li>
+                            <li class="skill-tag"><i class="fas fa-circle-check"></i> Smoke & Sanity Testing</li>
+                            <li class="skill-tag"><i class="fas fa-circle-check"></i> Exploratory Testing</li>
+                            <li class="skill-tag"><i class="fas fa-circle-check"></i> Negative & Boundary Testing</li>
+                            <li class="skill-tag"><i class="fas fa-circle-check"></i> Test Case Design & Execution</li>
+                            <li class="skill-tag"><i class="fas fa-circle-check"></i> Defect Reporting & Retesting</li>
+                            <li class="skill-tag"><i class="fas fa-circle-check"></i> SDLC & STLC Knowledge</li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 2: API & Database Testing -->
+                    <div class="skill-category-card glass-panel" data-category="api-db">
+                        <div class="cat-header">
+                            <div class="cat-icon-wrap icon-orange">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <div>
+                                <h3>API & Database QA</h3>
+                                <span>Backend Verification</span>
+                            </div>
+                        </div>
+                        <ul class="skill-tag-list">
+                            <li class="skill-tag"><i class="fas fa-bolt text-orange"></i> Postman</li>
+                            <li class="skill-tag"><i class="fas fa-code text-cyan"></i> REST APIs Validation</li>
+                            <li class="skill-tag"><i class="fas fa-database text-teal"></i> SQL & SQLPlus</li>
+                            <li class="skill-tag"><i class="fas fa-server text-green"></i> SQLite</li>
+                            <li class="skill-tag"><i class="fas fa-check-double text-blue"></i> CRUD Operations Testing</li>
+                            <li class="skill-tag"><i class="fas fa-file-code text-purple"></i> JSON Payload Validation</li>
+                            <li class="skill-tag"><i class="fas fa-satellite-dish text-yellow"></i> Status Code Verification</li>
+                            <li class="skill-tag"><i class="fas fa-shield-halved text-red"></i> Response Header & Body Checks</li>
+                            <li class="skill-tag"><i class="fas fa-table text-cyan"></i> Backend Data Integrity</li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 3: Tools & Ecosystem -->
+                    <div class="skill-category-card glass-panel" data-category="tools">
+                        <div class="cat-header">
+                            <div class="cat-icon-wrap icon-purple">
+                                <i class="fas fa-screwdriver-wrench"></i>
+                            </div>
+                            <div>
+                                <h3>Tools & Automation</h3>
+                                <span>Ecosystem & Defect Tracking</span>
+                            </div>
+                        </div>
+                        <ul class="skill-tag-list">
+                            <li class="skill-tag"><i class="fab fa-jira text-blue"></i> Jira (Bug Tracking & Agile)</li>
+                            <li class="skill-tag"><i class="fas fa-play text-green"></i> Playwright (Automation Basics)</li>
+                            <li class="skill-tag"><i class="fab fa-git-alt text-orange"></i> Git Version Control</li>
+                            <li class="skill-tag"><i class="fab fa-github"></i> GitHub Repositories</li>
+                            <li class="skill-tag"><i class="fas fa-browser text-cyan"></i> Cross-Browser Testing</li>
+                            <li class="skill-tag"><i class="fas fa-laptop-code text-yellow"></i> Chrome DevTools / Console</li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 4: Programming & Frontend -->
+                    <div class="skill-category-card glass-panel" data-category="prog">
+                        <div class="cat-header">
+                            <div class="cat-icon-wrap icon-green">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div>
+                                <h3>Programming & Web</h3>
+                                <span>Code Literacy & Debugging</span>
+                            </div>
+                        </div>
+                        <ul class="skill-tag-list">
+                            <li class="skill-tag"><i class="fab fa-js text-yellow"></i> JavaScript (ES6+)</li>
+                            <li class="skill-tag"><i class="fab fa-html5 text-orange"></i> HTML5 (Semantic Structure)</li>
+                            <li class="skill-tag"><i class="fab fa-css3-alt text-blue"></i> CSS3 & Responsive UI</li>
+                            <li class="skill-tag"><i class="fab fa-python text-teal"></i> Python (Infosys Springboard)</li>
+                            <li class="skill-tag"><i class="fas fa-mobile-screen text-purple"></i> Responsive Validation</li>
+                            <li class="skill-tag"><i class="fas fa-universal-access text-green"></i> Accessibility Checks</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-title-wrap text-center">
+                    <span class="section-subtitle">Real-World Case Studies</span>
+                    <h2 class="section-title">Featured <span class="gradient-text">Testing Projects</span></h2>
+                    <p class="section-desc">
+                        Deep dive into real-world software applications tested with comprehensive test plans, edge-case coverage, and documented defect reports.
+                    </p>
+                </div>
+
+                <div class="projects-container">
+                    <!-- Project 1: ShopEasy -->
+                    <article class="project-card glass-panel">
+                        <div class="project-header">
+                            <div class="project-badge-row">
+                                <span class="badge badge-accent"><i class="fas fa-cart-shopping"></i> E-Commerce QA</span>
+                                <span class="badge badge-pass"><i class="fas fa-check"></i> Functional & Regression</span>
+                            </div>
+                            <div class="project-external-links">
+                                <a href="https://github.com/Dipanshi98/ShopEasy" target="_blank" rel="noopener noreferrer" class="link-btn" title="View GitHub Repository">
+                                    <i class="fab fa-github"></i> GitHub Repo
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <h3 class="project-title">ShopEasy &mdash; E-Commerce Application QA</h3>
+                            <p class="project-tagline">
+                                End-to-end Manual, Functional, Negative & Regression Testing of core retail workflows.
+                            </p>
+
+                            <div class="project-tags">
+                                <span class="tag">Manual Testing</span>
+                                <span class="tag">Functional Testing</span>
+                                <span class="tag">Regression Testing</span>
+                                <span class="tag">Test Case Design</span>
+                                <span class="tag">Defect Reporting</span>
+                                <span class="tag">Jira</span>
+                            </div>
+
+                            <div class="project-highlights">
+                                <h4>Key Testing Achievements & Deliverables:</h4>
+                                <ul>
+                                    <li>
+                                        <strong>Comprehensive Workflow Coverage:</strong> Designed and executed test cases covering Registration, Login, Product Catalog, Search & Filtering, Wishlist, Cart state persistence, and Multi-step Checkout.
+                                    </li>
+                                    <li>
+                                        <strong>Negative & Boundary Testing:</strong> Tested invalid input characters, zero/negative quantities, concurrent session timeouts, and out-of-stock cart additions.
+                                    </li>
+                                    <li>
+                                        <strong>Defect Documentation:</strong> Verified expected vs. actual outcomes and logged actionable Jira bug reports complete with steps to reproduce, severity, priority, and screenshots.
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="project-footer">
+                                <button class="btn btn-primary btn-sm open-bug-modal" data-project="shopeasy">
+                                    <i class="fas fa-bug"></i> View Sample Bug Ticket
+                                </button>
+                                <button class="btn btn-outline btn-sm open-testcase-modal" data-project="shopeasy">
+                                    <i class="fas fa-table-list"></i> View Test Case Matrix
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: NGO Website -->
+                    <article class="project-card glass-panel">
+                        <div class="project-header">
+                            <div class="project-badge-row">
+                                <span class="badge badge-accent"><i class="fas fa-hand-holding-heart"></i> Web App QA</span>
+                                <span class="badge badge-pass"><i class="fas fa-mobile-screen"></i> Cross-Browser & UI</span>
+                            </div>
+                            <div class="project-external-links">
+                                <a href="https://github.com/Dipanshi98/ngo-app" target="_blank" rel="noopener noreferrer" class="link-btn" title="View GitHub Repository">
+                                    <i class="fab fa-github"></i> GitHub Repo
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <h3 class="project-title">NGO Website &mdash; Web Application Quality Assurance</h3>
+                            <p class="project-tagline">
+                                Comprehensive usability, UI responsiveness, form validation, and cross-browser regression testing.
+                            </p>
+
+                            <div class="project-tags">
+                                <span class="tag">Vite</span>
+                                <span class="tag">Tailwind CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Functional QA</span>
+                                <span class="tag">Exploratory Testing</span>
+                                <span class="tag">Regression</span>
+                            </div>
+
+                            <div class="project-highlights">
+                                <h4>Key Testing Achievements & Deliverables:</h4>
+                                <ul>
+                                    <li>
+                                        <strong>Responsiveness & UI Fidelity:</strong> Validated navigation menus, hero CTA components, modal popups, and donation portals across mobile, tablet, laptop, and ultra-wide displays.
+                                    </li>
+                                    <li>
+                                        <strong>Form Validation & Edge Scenarios:</strong> Executed positive and negative validations on volunteer sign-up forms, donor inputs, email regex rules, and phone number constraints.
+                                    </li>
+                                    <li>
+                                        <strong>Cross-Browser Compatibility:</strong> Conducted multi-browser regression on Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari ensuring consistent CSS rendering and script execution.
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="project-footer">
+                                <button class="btn btn-primary btn-sm open-bug-modal" data-project="ngo">
+                                    <i class="fas fa-bug"></i> View Sample Bug Ticket
+                                </button>
+                                <button class="btn btn-outline btn-sm open-testcase-modal" data-project="ngo">
+                                    <i class="fas fa-table-list"></i> View Test Case Matrix
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: OrangeHRM -->
+                    <article class="project-card glass-panel">
+                        <div class="project-header">
+                            <div class="project-badge-row">
+                                <span class="badge badge-accent"><i class="fas fa-users-gear"></i> HRMS QA</span>
+                                <span class="badge badge-pass"><i class="fas fa-shield-halved"></i> Role-Based Access</span>
+                            </div>
+                            <div class="project-external-links">
+                                <a href="https://github.com/Dipanshi98" target="_blank" rel="noopener noreferrer" class="link-btn" title="View GitHub Repository">
+                                    <i class="fab fa-github"></i> GitHub Repo
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <h3 class="project-title">OrangeHRM &mdash; HR Management System Testing</h3>
+                            <p class="project-tagline">
+                                Rigorous manual testing of enterprise HR workflows, employee records, role authorization, and data persistence.
+                            </p>
+
+                            <div class="project-tags">
+                                <span class="tag">Manual Testing</span>
+                                <span class="tag">Functional Testing</span>
+                                <span class="tag">Test Case Design</span>
+                                <span class="tag">Validation Testing</span>
+                                <span class="tag">Defect Reporting</span>
+                            </div>
+
+                            <div class="project-highlights">
+                                <h4>Key Testing Achievements & Deliverables:</h4>
+                                <ul>
+                                    <li>
+                                        <strong>HR Workflow Verification:</strong> Tested Employee Information Management (PIM), Leave Application/Approval flows, Attendance logging, and Admin system configurations.
+                                    </li>
+                                    <li>
+                                        <strong>Mandatory Fields & Validation:</strong> Designed test cases for field constraints, date-range validations, special character handling, and mandatory field omissions.
+                                    </li>
+                                    <li>
+                                        <strong>Defect Life Cycle & Verification:</strong> Compared expected vs. actual outcomes, logged detailed tickets, and re-tested bug fixes across iterative builds.
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="project-footer">
+                                <button class="btn btn-primary btn-sm open-bug-modal" data-project="orangehrm">
+                                    <i class="fas fa-bug"></i> View Sample Bug Ticket
+                                </button>
+                                <button class="btn btn-outline btn-sm open-testcase-modal" data-project="orangehrm">
+                                    <i class="fas fa-table-list"></i> View Test Case Matrix
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Live QA Interactive Test Lab (SandBox) -->
+        <section class="section qa-lab-section" id="qa-lab">
+            <div class="container">
+                <div class="section-title-wrap text-center">
+                    <span class="section-subtitle">Interactive Demonstration</span>
+                    <h2 class="section-title">Live QA <span class="gradient-text">Test Sandbox</span></h2>
+                    <p class="section-desc">
+                        Experience how I test software in real time! Interact with this live test simulator to test form validations, trigger edge-case scenarios, and see automated assertions and defect logs.
+                    </p>
+                </div>
+
+                <div class="qa-lab-wrapper glass-panel">
+                    <div class="lab-toolbar">
+                        <div class="lab-title">
+                            <i class="fas fa-vial-circle-check text-green"></i>
+                            <span>Scenario: User Registration & Cart Checkout Verification</span>
+                        </div>
+                        <div class="lab-controls">
+                            <button class="btn btn-sm btn-outline" id="btn-quick-pass">
+                                <i class="fas fa-check-double"></i> Fill Valid Inputs
+                            </button>
+                            <button class="btn btn-sm btn-outline btn-warn-outline" id="btn-trigger-bug">
+                                <i class="fas fa-triangle-exclamation"></i> Inject Edge-Case Bug
+                            </button>
+                            <button class="btn btn-sm btn-secondary" id="btn-reset-lab">
+                                <i class="fas fa-rotate-left"></i> Reset
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="lab-split-view">
+                        <!-- Input Testing Form -->
+                        <div class="lab-form-pane">
+                            <h4 class="pane-title"><i class="fas fa-keyboard"></i> Test Inputs (Under Test)</h4>
+                            <form id="sandbox-form" onsubmit="return false;">
+                                <div class="form-group">
+                                    <label for="test-email">Customer Email Address</label>
+                                    <input type="text" id="test-email" class="input-field"
+                                        placeholder="e.g. testuser@example.com" value="tester@shopeasy.com">
+                                    <span class="field-hint">Validation Rule: Valid email format, non-empty</span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="test-quantity">Product Order Quantity</label>
+                                    <input type="number" id="test-quantity" class="input-field"
+                                        placeholder="Quantity (1 - 99)" value="2">
+                                    <span class="field-hint">Boundary Check: Min 1, Max 99. Rejects 0 or negative.</span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="test-promo">Discount Promo Code</label>
+                                    <input type="text" id="test-promo" class="input-field"
+                                        placeholder="PROMO10, SAVE20 or leave blank" value="SAVE20">
+                                    <span class="field-hint">Special character sanitization required</span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="test-api-mock">Simulated Backend API Endpoint</label>
+                                    <select id="test-api-mock" class="input-field">
+                                        <option value="200">POST /api/v1/orders (Status: 200 OK)</option>
+                                        <option value="400">POST /api/v1/orders (Status: 400 Bad Request)</option>
+                                        <option value="500">POST /api/v1/orders (Status: 500 Internal Error)</option>
+                                    </select>
+                                </div>
+
+                                <button type="button" class="btn btn-primary btn-block" id="btn-run-assertions">
+                                    <i class="fas fa-play"></i> Execute QA Assertions
+                                </button>
+                            </form>
+                        </div>
+
+                        <!-- Test Execution Console & Output -->
+                        <div class="lab-console-pane">
+                            <div class="console-header">
+                                <span class="console-title"><i class="fas fa-terminal"></i> QA Test Runner Console</span>
+                                <span class="assertion-count" id="assertion-status">Status: Ready to run</span>
+                            </div>
+
+                            <div class="console-logs" id="console-logs">
+                                <div class="log-item info">
+                                    <span class="timestamp">[00:00:00]</span> Ready. Click "Execute QA Assertions" or select a preset to evaluate test cases.
+                                </div>
+                            </div>
+
+                            <div class="console-summary" id="console-summary">
+                                <div class="summary-stat stat-passed">
+                                    <span class="val" id="count-passed">0</span>
+                                    <span class="lbl">Passed</span>
+                                </div>
+                                <div class="summary-stat stat-failed">
+                                    <span class="val" id="count-failed">0</span>
+                                    <span class="lbl">Failed (Defects)</span>
+                                </div>
+                                <div class="summary-stat stat-time">
+                                    <span class="val" id="execution-time">0 ms</span>
+                                    <span class="lbl">Execution Time</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications Section -->
+        <section class="section edu-cert-section" id="education">
+            <div class="container">
+                <div class="section-title-wrap text-center">
+                    <span class="section-subtitle">Credentials & Recognition</span>
+                    <h2 class="section-title">Education & <span class="gradient-text">Certifications</span></h2>
+                    <p class="section-desc">
+                        Academic background in Computer Science combined with recognized industry certifications and hackathon podium finishes.
+                    </p>
+                </div>
+
+                <div class="edu-cert-grid">
+                    <!-- Left Column: Education -->
+                    <div class="edu-column">
+                        <h3 class="column-heading"><i class="fas fa-graduation-cap text-cyan"></i> Academic Education</h3>
+                        
+                        <div class="timeline-card glass-panel">
+                            <div class="card-tag">2022 &ndash; 2026</div>
+                            <h4 class="timeline-title">B.Tech in Computer Science and Engineering</h4>
+                            <p class="timeline-institution">Kanpur Institute of Technology (KIT)</p>
+                            <div class="cgpa-pill">
+                                <i class="fas fa-star text-yellow"></i> <strong>CGPA: 7.5 / 10.0</strong>
+                            </div>
+                            <p class="timeline-desc">
+                                Core coursework in Software Engineering, Database Management Systems (SQL), Object-Oriented Programming, Computer Networks, and Data Structures.
+                            </p>
+                        </div>
+
+                        <!-- Hackathon Achievements -->
+                        <h3 class="column-heading mt-4"><i class="fas fa-trophy text-yellow"></i> Hackathons & Honors</h3>
+                        
+                        <div class="achievement-card glass-panel">
+                            <div class="trophy-icon trophy-silver">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <div class="achievement-details">
+                                <span class="honor-badge">1st Runner-up</span>
+                                <h4>Aviothic 1.0 Hackathon (2023)</h4>
+                                <p>Recognized for innovative software problem solving, rapid development, and testing under competitive constraints.</p>
+                            </div>
+                        </div>
+
+                        <div class="achievement-card glass-panel">
+                            <div class="trophy-icon trophy-gold">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="achievement-details">
+                                <span class="honor-badge">Finalist</span>
+                                <h4>HectoVerse Hackathon &mdash; IIIT Gwalior (2024)</h4>
+                                <p>Selected as national finalist at Indian Institute of Information Technology, Gwalior for tech architecture and solution quality.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Certifications -->
+                    <div class="cert-column">
+                        <h3 class="column-heading"><i class="fas fa-certificate text-green"></i> Industry Certifications</h3>
+                        
+                        <div class="cert-list">
+                            <!-- Cert 1 -->
+                            <div class="cert-item glass-panel">
+                                <div class="cert-icon-box cert-qa">
+                                    <i class="fas fa-check-to-slot"></i>
+                                </div>
+                                <div class="cert-body">
+                                    <h4>Software Testing Certification</h4>
+                                    <p class="cert-issuer">Qedge Technologies</p>
+                                    <p class="cert-note">Manual testing concepts, test scenario formulation, SDLC/STLC phases, defect management.</p>
+                                </div>
+                            </div>
+
+                            <!-- Cert 2 -->
+                            <div class="cert-item glass-panel">
+                                <div class="cert-icon-box cert-cloud">
+                                    <i class="fas fa-cloud"></i>
+                                </div>
+                                <div class="cert-body">
+                                    <h4>AI Cloud Certification</h4>
+                                    <p class="cert-issuer">Edunet Foundation</p>
+                                    <p class="cert-note">Foundational cloud architectures, AI service deployment, and infrastructure testing.</p>
+                                </div>
+                            </div>
+
+                            <!-- Cert 3 -->
+                            <div class="cert-item glass-panel">
+                                <div class="cert-icon-box cert-python">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <div class="cert-body">
+                                    <h4>Python Programming</h4>
+                                    <p class="cert-issuer">Infosys Springboard</p>
+                                    <p class="cert-note">Python scripting, object-oriented concepts, and algorithmic foundations for automation.</p>
+                                </div>
+                            </div>
+
+                            <!-- Cert 4 -->
+                            <div class="cert-item glass-panel">
+                                <div class="cert-icon-box cert-web">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <div class="cert-body">
+                                    <h4>Frontend Development Training</h4>
+                                    <p class="cert-issuer">RCPL</p>
+                                    <p class="cert-note">HTML5, CSS3, DOM structure, and JavaScript responsive UI engineering.</p>
+                                </div>
+                            </div>
+
+                            <!-- Cert 5 -->
+                            <div class="cert-item glass-panel">
+                                <div class="cert-icon-box cert-skillup">
+                                    <i class="fas fa-user-gear"></i>
+                                </div>
+                                <div class="cert-body">
+                                    <h4>SkillUp Employability Program</h4>
+                                    <p class="cert-issuer">Infosys & Centum Foundation</p>
+                                    <p class="cert-note">Professional corporate communication, agile teamwork, and software industry readiness.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-title-wrap text-center">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Let's Connect & <span class="gradient-text">Collaborate</span></h2>
+                    <p class="section-desc">
+                        I am actively interviewing for QA Engineer, Manual Tester, and Software Quality Specialist roles. Feel free to reach out via phone, email, or LinkedIn!
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Cards -->
+                    <div class="contact-info-cards">
+                        <!-- Email Card -->
+                        <div class="contact-card glass-panel">
+                            <div class="contact-icon icon-cyan">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <span class="detail-label">Email Address</span>
+                                <a href="mailto:dipanshiyadav9876@gmail.com" class="detail-value">dipanshiyadav9876@gmail.com</a>
+                            </div>
+                            <button class="copy-btn" data-copy="dipanshiyadav9876@gmail.com" title="Copy Email">
+                                <i class="far fa-copy"></i>
+                            </button>
+                        </div>
+
+                        <!-- Phone Card -->
+                        <div class="contact-card glass-panel">
+                            <div class="contact-icon icon-green">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <span class="detail-label">Phone & WhatsApp</span>
+                                <a href="tel:+918009040297" class="detail-value">+91 8009040297</a>
+                            </div>
+                            <button class="copy-btn" data-copy="+918009040297" title="Copy Phone Number">
+                                <i class="far fa-copy"></i>
+                            </button>
+                        </div>
+
+                        <!-- Location Card -->
+                        <div class="contact-card glass-panel">
+                            <div class="contact-icon icon-purple">
+                                <i class="fas fa-location-dot"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <span class="detail-label">Current Location</span>
+                                <span class="detail-value">Hyderabad, India (Open to Relocation / Remote)</span>
+                            </div>
+                        </div>
+
+                        <!-- Social Channels Card -->
+                        <div class="contact-card glass-panel">
+                            <div class="contact-icon icon-orange">
+                                <i class="fas fa-share-nodes"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <span class="detail-label">Professional Profiles</span>
+                                <div class="profiles-links">
+                                    <a href="https://linkedin.com/in/dipanshi-yadav-912180314/" target="_blank" rel="noopener noreferrer" class="profile-link">
+                                        <i class="fab fa-linkedin"></i> LinkedIn
+                                    </a>
+                                    <a href="https://github.com/Dipanshi98" target="_blank" rel="noopener noreferrer" class="profile-link">
+                                        <i class="fab fa-github"></i> GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Direct Message Form -->
+                    <div class="contact-form-panel glass-panel">
+                        <div class="form-title-bar">
+                            <h3><i class="fas fa-paper-plane text-cyan"></i> Send Me a Message</h3>
+                            <span class="qa-badge-sm"><i class="fas fa-shield-halved"></i> Live QA Validated Form</span>
+                        </div>
+                        
+                        <form id="contact-form" action="https://formspree.io/f/dipanshiyadav9876@gmail.com" method="POST">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="sender-name">Your Name <span class="required">*</span></label>
+                                    <input type="text" id="sender-name" name="name" class="input-field" placeholder="Recruiter / Hiring Manager" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="sender-email">Your Work Email <span class="required">*</span></label>
+                                    <input type="email" id="sender-email" name="email" class="input-field" placeholder="recruiter@company.com" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="sender-subject">Subject / Opportunity</label>
+                                <input type="text" id="sender-subject" name="subject" class="input-field" placeholder="QA Engineer Opportunity / Discussion">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="sender-message">Message Details <span class="required">*</span></label>
+                                <textarea id="sender-message" name="message" rows="4" class="input-field" placeholder="Hi Dipanshi, we came across your QA profile and would love to connect..." required></textarea>
+                            </div>
+
+                            <div class="form-action-row">
+                                <button type="submit" class="btn btn-primary btn-block" id="btn-submit-contact">
+                                    <i class="fas fa-paper-plane"></i> Send Direct Message
+                                </button>
+                                <a href="mailto:dipanshiyadav9876@gmail.com?subject=QA%20Job%20Opportunity" class="btn btn-secondary btn-block">
+                                    <i class="fas fa-envelope-open-text"></i> Open in Mail Client
+                                </a>
+                            </div>
+                            <div id="form-feedback" class="form-feedback"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <a href="#hero" class="brand-logo">
+                    <span class="logo-box">DY</span>
+                    <span class="brand-text">Dipanshi<span class="highlight">.qa</span></span>
+                </a>
+                <p class="footer-tagline">
+                    Ensuring high software reliability, test coverage, and precision quality assurance.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#qa-lab">QA Lab</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-socials">
+                <a href="https://linkedin.com/in/dipanshi-yadav-912180314/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/Dipanshi98" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:dipanshiyadav9876@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="tel:+918009040297" aria-label="Phone">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <p>&copy; <span id="current-year">2026</span> Dipanshi Yadav &bull; All Rights Reserved.</p>
+                <a href="#hero" class="back-to-top" aria-label="Back to top">
+                    <i class="fas fa-arrow-up"></i> Top
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL 1: Sample Bug Report Modal (Jira Style) -->
+    <div class="modal" id="bug-modal" aria-hidden="true" role="dialog">
+        <div class="modal-overlay" tabindex="-1"></div>
+        <div class="modal-dialog glass-panel">
+            <div class="modal-header">
+                <div class="ticket-header-info">
+                    <span class="badge badge-bug"><i class="fas fa-bug"></i> JIRA DEFECT TICKET</span>
+                    <span class="ticket-id" id="modal-ticket-id">DY-QA-104</span>
+                </div>
+                <button class="modal-close" aria-label="Close modal">&times;</button>
+            </div>
+
+            <div class="modal-body" id="bug-modal-content">
+                <!-- Content populated dynamically via JS -->
+            </div>
+
+            <div class="modal-footer">
+                <span class="modal-hint"><i class="fas fa-circle-info"></i> Sample defect documentation by Dipanshi Yadav</span>
+                <button class="btn btn-outline btn-sm modal-close-btn">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 2: Test Case Matrix Modal -->
+    <div class="modal" id="testcase-modal" aria-hidden="true" role="dialog">
+        <div class="modal-overlay" tabindex="-1"></div>
+        <div class="modal-dialog modal-lg glass-panel">
+            <div class="modal-header">
+                <div class="ticket-header-info">
+                    <span class="badge badge-accent"><i class="fas fa-table-list"></i> TEST CASE EXECUTION MATRIX</span>
+                    <span class="ticket-id" id="modal-matrix-id">TC-SUITE-V1</span>
+                </div>
+                <button class="modal-close" aria-label="Close modal">&times;</button>
+            </div>
+
+            <div class="modal-body" id="testcase-modal-content">
+                <!-- Content populated dynamically via JS -->
+            </div>
+
+            <div class="modal-footer">
+                <span class="modal-hint"><i class="fas fa-circle-check text-green"></i> 100% Traceability with Functional Specs</span>
+                <button class="btn btn-outline btn-sm modal-close-btn">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 3: Printable Resume Modal -->
+    <div class="modal" id="resume-modal" aria-hidden="true" role="dialog">
+        <div class="modal-overlay" tabindex="-1"></div>
+        <div class="modal-dialog modal-xl glass-panel resume-modal-dialog">
+            <div class="modal-header">
+                <div class="ticket-header-info">
+                    <span class="badge badge-accent"><i class="fas fa-id-card"></i> CURRICULUM VITAE</span>
+                    <span class="ticket-id">Dipanshi Yadav &bull; QA Engineer</span>
+                </div>
+                <div class="resume-header-actions">
+                    <button class="btn btn-primary btn-sm" id="btn-print-resume">
+                        <i class="fas fa-print"></i> Print / Save as PDF
+                    </button>
+                    <button class="modal-close" aria-label="Close modal">&times;</button>
+                </div>
+            </div>
+
+            <div class="modal-body resume-paper-container">
+                <div class="resume-sheet" id="printable-resume">
+                    <!-- Clean Resume Layout exactly matching PDF content -->
+                    <div class="resume-paper-header">
+                        <h1 class="resume-name">Dipanshi Yadav</h1>
+                        <p class="resume-tagline">QA Engineer | Manual Testing, API Testing & Software Testing</p>
+                        <div class="resume-contact-line">
+                            <span>Hyderabad, India</span> &bull; 
+                            <a href="tel:+918009040297">+91 8009040297</a> &bull; 
+                            <a href="mailto:dipanshiyadav9876@gmail.com">dipanshiyadav9876@gmail.com</a>
+                        </div>
+                        <div class="resume-links-line">
+                            <a href="https://linkedin.com/in/dipanshi-yadav-912180314/" target="_blank">linkedin.com/in/dipanshi-yadav-912180314/</a> &bull; 
+                            <a href="https://github.com/Dipanshi98" target="_blank">github.com/Dipanshi98</a>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <h2 class="resume-section-title">Summary</h2>
+                        <p class="resume-section-body">
+                            QA Engineer with hands-on software testing experience in manual, functional, regression, negative, API, and database testing. Skilled in test case design and execution, REST API validation using Postman, SQL-based backend verification, defect reporting, retesting, and web application testing. Hands-on experience with Jira, Postman, SQL, and Playwright.
+                        </p>
+                    </div>
+
+                    <div class="resume-section">
+                        <h2 class="resume-section-title">Skills</h2>
+                        <div class="resume-skills-block">
+                            <p><strong>Testing:</strong> Manual Testing, Functional Testing, Regression Testing, Smoke Testing, Sanity Testing, Exploratory Testing, Negative Testing, Test Case Design, Test Execution, Defect Reporting, Retesting, SDLC, STLC</p>
+                            <p><strong>API & Database:</strong> Postman, REST APIs, SQL, SQLPlus, SQLite, CRUD Testing, Payload Validation, Status Code Validation, Response Validation, Backend Testing</p>
+                            <p><strong>Tools:</strong> Jira, Playwright, Git, GitHub</p>
+                            <p><strong>Programming:</strong> JavaScript, HTML, CSS</p>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <h2 class="resume-section-title">Projects</h2>
+                        
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <span class="resume-item-title"><strong>ShopEasy</strong> | E-Commerce Application &ndash; Software Testing Project</span>
+                                <a href="https://github.com/Dipanshi98/ShopEasy" target="_blank" class="resume-item-link">GitHub Repository</a>
+                            </div>
+                            <div class="resume-item-subtitle">Manual Testing &bull; Functional Testing &bull; Regression Testing &bull; Test Case Design &bull; Defect Reporting</div>
+                            <ul class="resume-bullet-list">
+                                <li>Performed functional, negative, validation, exploratory, and regression testing across key e-commerce workflows.</li>
+                                <li>Designed and executed test cases for registration, login, products, search, categories, wishlist, cart, and checkout.</li>
+                                <li>Verified expected and actual results and documented defects with reproduction steps, severity, priority, and test evidence.</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <span class="resume-item-title"><strong>NGO Website</strong> | Web Application QA</span>
+                                <a href="https://github.com/Dipanshi98/ngo-app" target="_blank" class="resume-item-link">GitHub Repository</a>
+                            </div>
+                            <div class="resume-item-subtitle">Vite &bull; Tailwind CSS &bull; JavaScript &bull; Functional &bull; Exploratory &bull; Regression</div>
+                            <ul class="resume-bullet-list">
+                                <li>Validated navigation, forms, UI responsiveness, accessibility, and cross-browser compatibility through functional and regression testing.</li>
+                                <li>Tested form validations, links, user workflows, and responsive behavior across different browsers and screen conditions.</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <span class="resume-item-title"><strong>OrangeHRM</strong> | HR Management System &ndash; Manual Testing</span>
+                            </div>
+                            <div class="resume-item-subtitle">Manual Testing &bull; Functional Testing &bull; Test Case Design &bull; Validation Testing &bull; Defect Reporting</div>
+                            <ul class="resume-bullet-list">
+                                <li>Tested available HR management workflows and verified application functionality using manual testing techniques.</li>
+                                <li>Designed test cases for form validation, mandatory fields, navigation, and positive and negative scenarios.</li>
+                                <li>Compared actual results with expected results and documented test outcomes and reproducible defects where applicable.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <h2 class="resume-section-title">Education</h2>
+                        <div class="resume-item-header">
+                            <div>
+                                <strong>Kanpur Institute of Technology</strong><br>
+                                B.Tech in Computer Science and Engineering
+                            </div>
+                            <div class="text-right">
+                                2022 &ndash; 2026<br>
+                                <strong>CGPA: 7.5 / 10.0</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <h2 class="resume-section-title">Certifications & Achievements</h2>
+                        <ul class="resume-bullet-list">
+                            <li>Software Testing Certification &ndash; Qedge Technologies</li>
+                            <li>AI Cloud Certification &ndash; Edunet Foundation</li>
+                            <li>Python Programming &ndash; Infosys Springboard</li>
+                            <li>Frontend Development Training &ndash; RCPL</li>
+                            <li>SkillUp Employability Program &ndash; Infosys & Centum Foundation</li>
+                            <li>Finalist &ndash; HectoVerse Hackathon, IIIT Gwalior (2024)</li>
+                            <li>1st Runner-up &ndash; Aviothic 1.0 Hackathon (2023)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <span class="modal-hint"><i class="fas fa-check-circle text-green"></i> Verified credentials against resume data</span>
+                <button class="btn btn-primary btn-sm" onclick="window.print()">
+                    <i class="fas fa-print"></i> Print Document
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification for Copy / Feedback -->
+    <div id="toast" class="toast">Action completed!</div>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+
+</html>

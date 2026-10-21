@@ -1,0 +1,14 @@
+# Dependencies & Build
+node_modules/
+.next/
+.vscode/
+
+# Sub-projects & Backups
+aura/
+nexcart/
+safar_backup/
+
+# Logs & Environment
+*.log
+.DS_Store
+Thumbs.db
